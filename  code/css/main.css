@@ -1,0 +1,104 @@
+.body {
+	height: 100%;
+	font-family: sans-serif;
+	opacity: 0;
+	transition: opacity .5s;
+}
+
+a {
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+/*main.css*/
+
+#container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-family: inherit;
+	height: 98vh;
+
+}
+
+#personal,
+#design {
+	padding-top: 30vh;
+	margin: 5px;
+	width: 50%;
+	height: 67vh;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: inherit;
+}
+
+#personal {
+	background-color: #88F3FF;
+}
+
+#design {
+	background-color: #BDFF97;
+}
+
+/*main.html & main-open.html*/
+
+#logo {
+	position: absolute;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	overflow: hidden;
+}
+
+#logo:hover {
+	opacity: 50%;
+}
+
+/*main-open.html*/
+
+#container-open {
+	width: 100%;
+	display: flex;
+	font-family: inherit;
+	flex-direction: row;
+	height: 97vh;
+	margin: 13px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#personal-open,
+#design-open {
+	padding: 5%;
+	font-family: inherit;
+	width: 15%;
+	text-align: center;
+}
+
+#center-open {
+	width: 60%;
+}
+
+#personal-open {
+	background-color: #88F3FF;
+}
+
+#design-open {
+	background-color: #BDFF97;
+	align-content: flex-end;
+}
